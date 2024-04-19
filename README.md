@@ -24,11 +24,11 @@ Designed and developed an Android application aimed at providing diploma student
 ![Screenshot 3](./7.jpg)
 
 ![Screenshot 1](./Admin1.png)
-![Screenshot 2](./2.jpg)
-![Screenshot 3](./3.jpg)
-![Screenshot 1](./4.jpg)
-![Screenshot 2](./5.jpg)
-![Screenshot 3](./6.jpg)
+![Screenshot 2](./Admin2.pngg)
+![Screenshot 3](./Admin3.pngg)
+![Screenshot 1](./Admin4.png)
+![Screenshot 2](./Admin5.png)
+![Screenshot 3](./Admin6.png)
 
 
 
