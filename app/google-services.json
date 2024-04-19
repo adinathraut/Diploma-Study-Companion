@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927348353427",
+    "project_id": "diploma-helper-b2167",
+    "storage_bucket": "diploma-helper-b2167.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927348353427:android:ca6aee1bf8fef20f1ae066",
+        "android_client_info": {
+          "package_name": "com.example.diplomahelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927348353427-ve2l4kma66brmk71algocasguns60iak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEHJpkA2mgpPtBTlPHnj4ll_lXdGehLts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927348353427-ve2l4kma66brmk71algocasguns60iak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

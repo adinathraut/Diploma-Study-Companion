@@ -1,0 +1,46 @@
+package com.example.diplomahelper;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.View;
+
+public class ajp_modelanswer_papers extends AppCompatActivity {
+
+
+    CardView ajp_question_bank;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ajp_modelanswer_papers);
+
+        ajp_question_bank=findViewById(R.id.cv_ajpquestionbank);
+
+        ActionBar actionBar= getSupportActionBar();
+        actionBar.setTitle(" AJP Model Answer Papers");
+        actionBar.setDisplayUseLogoEnabled(true);
+        actionBar.setDisplayShowHomeEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setHomeAsUpIndicator(R.drawable.arrow_back_purple);
+
+
+        ajp_question_bank.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(ajp_modelanswer_papers.this,ajp_questionbank.class);
+                startActivity(i);
+            }
+        });
+
+
+    }
+
+    private void gotoUrl( String s) {
+        Uri u = Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW,u));
+    }
+}

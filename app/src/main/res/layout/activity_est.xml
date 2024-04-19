@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".est">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="394dp"
+                android:layout_height="75dp"
+                android:weightSum="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_choosesemester"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="50dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="18dp">
+
+
+                    <LinearLayout
+
+                        android:layout_width="329dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="50dp"
+
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/learning"></ImageView>
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="60dp"
+                            android:gravity="center_vertical"
+                            android:layout_marginLeft="35dp"
+                            android:text="Choose Content !"
+                            android:textColor="@color/purple_700"
+                            android:textSize="18sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="394dp"
+                android:layout_height="75dp"
+                android:weightSum="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_books"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="50dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#C9B5F8"
+                    app:cardCornerRadius="18dp">
+
+
+                    <LinearLayout
+
+                        android:layout_width="329dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="46dp"
+
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/book"></ImageView>
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Books"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="394dp"
+                android:layout_height="75dp"
+                android:weightSum="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="50dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#C9B5F8"
+                    app:cardCornerRadius="18dp">
+
+
+                    <LinearLayout
+
+                        android:layout_width="329dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/pencil"></ImageView>
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Notes"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="394dp"
+                android:layout_height="75dp"
+                android:weightSum="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_questionbanks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="50dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#C9B5F8"
+                    app:cardCornerRadius="18dp">
+
+
+                    <LinearLayout
+
+                        android:layout_width="329dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/question"></ImageView>
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Question Banks"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="394dp"
+                android:layout_height="75dp"
+                android:weightSum="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_labmannuals"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="50dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#C9B5F8"
+                    app:cardCornerRadius="18dp">
+
+
+                    <LinearLayout
+
+                        android:layout_width="329dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/laboratory"></ImageView>
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Lab Mannual"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="394dp"
+                android:layout_height="75dp"
+                android:weightSum="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_solvedlabmannual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="50dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#C9B5F8"
+                    app:cardCornerRadius="18dp">
+
+
+                    <LinearLayout
+
+                        android:layout_width="329dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/solvedlabmannual"></ImageView>
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Solved Lab Mannual"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="394dp"
+                android:layout_height="75dp"
+                android:weightSum="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_previousyearquestionpapers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="50dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#C9B5F8"
+                    app:cardCornerRadius="18dp">
+
+
+                    <LinearLayout
+
+                        android:layout_width="329dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/previousyearquestionpapaer"></ImageView>
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Previous Year Question Papers"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="394dp"
+                android:layout_height="75dp"
+                android:weightSum="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_modelanswerpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="50dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#C9B5F8"
+                    app:cardCornerRadius="18dp">
+
+
+                    <LinearLayout
+
+                        android:layout_width="329dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/answer"></ImageView>
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Model Answers Papers"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="394dp"
+                android:layout_height="75dp"
+                android:weightSum="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_microproject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="50dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#C9B5F8"
+                    app:cardCornerRadius="18dp">
+
+
+                    <LinearLayout
+
+                        android:layout_width="329dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/idea"></ImageView>
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Microprojects"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

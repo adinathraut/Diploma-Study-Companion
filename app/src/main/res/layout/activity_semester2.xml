@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Semester_1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="394dp"
+            android:layout_height="75dp"
+            android:weightSum="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_choosesemester"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="50dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:outlineAmbientShadowColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="18dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="329dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/openbook"></ImageView>
+
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="60dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="35dp"
+                        android:text="Choose Subject !"
+                        android:textColor="@color/purple_700"
+                        android:textSize="18sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="394dp"
+            android:layout_height="75dp"
+            android:weightSum="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_eec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="50dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:outlineAmbientShadowColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#C9B5F8"
+                app:cardCornerRadius="18dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="329dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/read"></ImageView>
+
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Elements of Electrcal Engineering (EEC)"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+    </TableLayout>
+
+        <TableLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="394dp"
+                android:layout_height="75dp"
+                android:weightSum="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_bec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="50dp"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#C9B5F8"
+                    app:cardCornerRadius="18dp">
+
+
+                    <LinearLayout
+
+                        android:layout_width="329dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/read"></ImageView>
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Basic Electonics (BEC)"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+    <TableLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="394dp"
+            android:layout_height="75dp"
+            android:weightSum="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_ami"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="50dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:outlineAmbientShadowColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#C9B5F8"
+                app:cardCornerRadius="18dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="329dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/read"></ImageView>
+
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Applied Matematics (AMI)"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="394dp"
+            android:layout_height="75dp"
+            android:weightSum="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_pci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="50dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:outlineAmbientShadowColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#C9B5F8"
+                app:cardCornerRadius="18dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="329dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/read"></ImageView>
+
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Programming in 'C' "
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="394dp"
+            android:layout_height="75dp"
+            android:weightSum="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_bcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="50dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:outlineAmbientShadowColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#C9B5F8"
+                app:cardCornerRadius="18dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="329dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/read"></ImageView>
+
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Business Communication Using Computers (BCC)"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="394dp"
+            android:layout_height="75dp"
+            android:weightSum="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_cph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="50dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:outlineAmbientShadowColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#C9B5F8"
+                app:cardCornerRadius="18dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="329dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/read"></ImageView>
+
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Computer Perpheral and Hardware Maintenance (CPH)"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="394dp"
+            android:layout_height="75dp"
+            android:weightSum="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_wpd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="50dp"
+                android:outlineSpotShadowColor="@color/black"
+                android:outlineAmbientShadowColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#C9B5F8"
+                app:cardCornerRadius="18dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="329dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/read"></ImageView>
+
+                    <TextView
+                        android:layout_width="270dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="WEBPage Designing with HTML (WPD)"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Syllabus"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_bg"
+            android:text="Download"
+            android:textSize="8dp"></Button>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

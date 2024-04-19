@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_homepage_contactus"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_msbte_contact1"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="16dp"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="14dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/et_bg_border_text"
+
+            >
+
+            <TextView
+                android:id="@+id/tv_login_1title"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" CONTACT US "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_msbte_contact11"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="16dp"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="14dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/tv_login_title1"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" GMAIL "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginBottom="-20dp"
+                android:layout_marginTop="-30dp"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/gmailicon"
+
+                ></pl.droidsonroids.gif.GifImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="diplomahelper.official@gmail.com"
+                android:autoLink="email"
+                android:layout_gravity="center"
+                android:id="@+id/tv_gmail"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/purple_700"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_msbte_contact"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="14dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/tv_login_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:text=" INSTAGRAM "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="-20dp"
+                android:src="@drawable/instatgramicon"
+
+                ></pl.droidsonroids.gif.GifImageView>
+
+            <TextView
+                android:id="@+id/tv_diploma_helper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:text="@diploma_helper"
+                android:textColor="@color/purple_700"></TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/socialmedia"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="8dp"
+        ></pl.droidsonroids.gif.GifImageView>
+
+    </LinearLayout>
+</ScrollView>
+

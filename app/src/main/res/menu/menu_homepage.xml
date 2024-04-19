@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/menu_home_myprofile"
+        android:title="My Profile"  />
+
+    <item
+        android:id="@+id/menu_home_notification"
+        android:title="Notification" />
+    <item
+        android:id="@+id/menu_home_contribute"
+        android:title="Contribute"/>
+    <item
+        android:id="@+id/menu_home_contact_us"
+        android:title="Contact Us"/>
+    <item
+        android:id="@+id/menu_home_developer_contacts"
+        android:title="Developer Contacts"/>
+    <item
+        android:id="@+id/menu_home_share_app"
+        android:title="Share App"/>
+    <item
+        android:id="@+id/menu_home_msbte_contacts"
+        android:title="MSBTE Contacts"/>
+
+    <item
+        android:id="@+id/menu_home_feedback"
+        android:title="Feedback"/>
+    <item
+        android:id="@+id/menu_home_logout"
+        android:title="Logout"/>
+
+</menu>

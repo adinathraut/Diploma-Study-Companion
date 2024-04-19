@@ -1,0 +1,74 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/COTY-07/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_css.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/COTY-07/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_login_page.xml" value="0.262037037037037" />
+        <entry key="..\:/Users/COTY-07/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/COTY-07/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_menu_homepage_myprofile.xml" value="0.25" />
+        <entry key="..\:/Users/COTY-07/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_registration_page.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/COTY-07/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_semester4.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/drawable-xxxhdpi/button_bg_edit.xml" value="0.1645" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/drawable/action_bar_logo.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/drawable/button_bg.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/drawable/cardview_bg.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/drawable/et_bg_border.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/drawable/et_bg_border_text.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/drawable/icon_person.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/drawable/list_item.xml" value="0.104" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/drawable/textfield_bg.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_ajp.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_ajp_book.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_ajp_modelanswer_papers.xml" value="0.22" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_ajp_previousyearquestion_papers.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_ajp_questionbank.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_ajp_solvedmannual.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_css.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_css_book.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_est.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_est_book.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_est_previousyearquestion_papaers.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_home_page.xml" value="0.2" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_login_page.xml" value="0.22" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_menu_homepage_contactus.xml" value="0.1" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_menu_homepage_contribute.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_menu_homepage_feedback.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_menu_homepage_msbtecontacts.xml" value="0.1" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_menu_homepage_myprofile.xml" value="0.225" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_msbte_official_website.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_msbte_result_website.xml" value="0.1503623188405797" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_osy.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_osy_book.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_osy_modelanswer_papers.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_osy_previousyearquestion_papers.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_osy_questionbank.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_osy_solvedmannual.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_registration.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_registration_page.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_semester1.xml" value="0.25" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_semester2.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_semester3.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_semester4.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_semester5.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_semester6.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_ste.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_ste_book.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_ste_modelanswer_papers.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/activity_ste_solvedmannual.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/layout/list_item.xml" value="0.225" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/menu/menu_homepage.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/mipmap-anydpi-v26/applogo.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/mipmap-anydpi-v26/diplomahelperlogo.xml" value="0.1" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/mipmap-anydpi-v26/msbte_icon_round.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/YASH COMPUTER/AndroidStudioProjects/DiplomaHelper/app/src/main/res/mipmap-anydpi-v26/msbtelogoremovedbackground.xml" value="0.1527777777777778" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
